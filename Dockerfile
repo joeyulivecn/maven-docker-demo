@@ -1,5 +1,4 @@
 FROM maven:3.8.2-jdk-8 as build-env
-
 ADD . /java/app
 WORKDIR /java/app
 RUN mvn clean package spring-boot:repackage -DskipTests
