@@ -22,5 +22,10 @@ $ mvn package spring-boot:repackage
 $ java -jar -Dspring.profiles.active=prod target/maven-docker-demo-0.0.1-SNAPSHOT.jar
 ```
 
+### Test
+```
+$ curl localhost:8080
+```
+
 
 
